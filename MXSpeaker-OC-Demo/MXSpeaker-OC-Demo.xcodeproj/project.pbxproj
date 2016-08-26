@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD3C1D81D6FF39800DB0F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3C1D71D6FF39800DB0F3C /* main.m */; };
+		5CD3C1DB1D6FF39800DB0F3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3C1DA1D6FF39800DB0F3C /* AppDelegate.m */; };
+		5CD3C1DE1D6FF39800DB0F3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3C1DD1D6FF39800DB0F3C /* ViewController.m */; };
+		5CD3C1E11D6FF39800DB0F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3C1DF1D6FF39800DB0F3C /* Main.storyboard */; };
+		5CD3C1E31D6FF39800DB0F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3C1E21D6FF39800DB0F3C /* Assets.xcassets */; };
+		5CD3C1E61D6FF39800DB0F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD3C1E41D6FF39800DB0F3C /* LaunchScreen.storyboard */; };
+		5CD3C1F01D6FF3AA00DB0F3C /* MXSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3C1EF1D6FF3AA00DB0F3C /* MXSpeaker.m */; };
+		5CD3C1F21D6FF3B300DB0F3C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD3C1F11D6FF3B300DB0F3C /* AVFoundation.framework */; };
+		5CD3C1F51D6FF3FF00DB0F3C /* NSString+Speaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3C1F41D6FF3FF00DB0F3C /* NSString+Speaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CD3C1D31D6FF39800DB0F3C /* MXSpeaker-OC-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MXSpeaker-OC-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD3C1D71D6FF39800DB0F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CD3C1D91D6FF39800DB0F3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CD3C1DA1D6FF39800DB0F3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CD3C1DC1D6FF39800DB0F3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CD3C1DD1D6FF39800DB0F3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CD3C1E01D6FF39800DB0F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CD3C1E21D6FF39800DB0F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CD3C1E51D6FF39800DB0F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CD3C1E71D6FF39800DB0F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD3C1EE1D6FF3AA00DB0F3C /* MXSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSpeaker.h; sourceTree = "<group>"; };
+		5CD3C1EF1D6FF3AA00DB0F3C /* MXSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSpeaker.m; sourceTree = "<group>"; };
+		5CD3C1F11D6FF3B300DB0F3C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5CD3C1F31D6FF3FF00DB0F3C /* NSString+Speaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Speaker.h"; sourceTree = "<group>"; };
+		5CD3C1F41D6FF3FF00DB0F3C /* NSString+Speaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Speaker.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD3C1D01D6FF39800DB0F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3C1F21D6FF3B300DB0F3C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD3C1CA1D6FF39800DB0F3C = {
+			isa = PBXGroup;
+			children = (
+				5CD3C1F11D6FF3B300DB0F3C /* AVFoundation.framework */,
+				5CD3C1D51D6FF39800DB0F3C /* MXSpeaker-OC-Demo */,
+				5CD3C1D41D6FF39800DB0F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD3C1D41D6FF39800DB0F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3C1D31D6FF39800DB0F3C /* MXSpeaker-OC-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD3C1D51D6FF39800DB0F3C /* MXSpeaker-OC-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3C1ED1D6FF39F00DB0F3C /* MXSpeaker */,
+				5CD3C1D91D6FF39800DB0F3C /* AppDelegate.h */,
+				5CD3C1DA1D6FF39800DB0F3C /* AppDelegate.m */,
+				5CD3C1DC1D6FF39800DB0F3C /* ViewController.h */,
+				5CD3C1DD1D6FF39800DB0F3C /* ViewController.m */,
+				5CD3C1DF1D6FF39800DB0F3C /* Main.storyboard */,
+				5CD3C1E21D6FF39800DB0F3C /* Assets.xcassets */,
+				5CD3C1E41D6FF39800DB0F3C /* LaunchScreen.storyboard */,
+				5CD3C1E71D6FF39800DB0F3C /* Info.plist */,
+				5CD3C1D61D6FF39800DB0F3C /* Supporting Files */,
+			);
+			path = "MXSpeaker-OC-Demo";
+			sourceTree = "<group>";
+		};
+		5CD3C1D61D6FF39800DB0F3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3C1D71D6FF39800DB0F3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CD3C1ED1D6FF39F00DB0F3C /* MXSpeaker */ = {
+			isa = PBXGroup;
+			children = (
+				5CD3C1EE1D6FF3AA00DB0F3C /* MXSpeaker.h */,
+				5CD3C1EF1D6FF3AA00DB0F3C /* MXSpeaker.m */,
+				5CD3C1F31D6FF3FF00DB0F3C /* NSString+Speaker.h */,
+				5CD3C1F41D6FF3FF00DB0F3C /* NSString+Speaker.m */,
+			);
+			name = MXSpeaker;
+			path = ../../MXSpeaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD3C1D21D6FF39800DB0F3C /* MXSpeaker-OC-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD3C1EA1D6FF39800DB0F3C /* Build configuration list for PBXNativeTarget "MXSpeaker-OC-Demo" */;
+			buildPhases = (
+				5CD3C1CF1D6FF39800DB0F3C /* Sources */,
+				5CD3C1D01D6FF39800DB0F3C /* Frameworks */,
+				5CD3C1D11D6FF39800DB0F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MXSpeaker-OC-Demo";
+			productName = "MXSpeaker-OC-Demo";
+			productReference = 5CD3C1D31D6FF39800DB0F3C /* MXSpeaker-OC-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD3C1CB1D6FF39800DB0F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Meniny;
+				TargetAttributes = {
+					5CD3C1D21D6FF39800DB0F3C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CD3C1CE1D6FF39800DB0F3C /* Build configuration list for PBXProject "MXSpeaker-OC-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD3C1CA1D6FF39800DB0F3C;
+			productRefGroup = 5CD3C1D41D6FF39800DB0F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD3C1D21D6FF39800DB0F3C /* MXSpeaker-OC-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD3C1D11D6FF39800DB0F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3C1E61D6FF39800DB0F3C /* LaunchScreen.storyboard in Resources */,
+				5CD3C1E31D6FF39800DB0F3C /* Assets.xcassets in Resources */,
+				5CD3C1E11D6FF39800DB0F3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD3C1CF1D6FF39800DB0F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3C1DE1D6FF39800DB0F3C /* ViewController.m in Sources */,
+				5CD3C1DB1D6FF39800DB0F3C /* AppDelegate.m in Sources */,
+				5CD3C1F01D6FF3AA00DB0F3C /* MXSpeaker.m in Sources */,
+				5CD3C1F51D6FF3FF00DB0F3C /* NSString+Speaker.m in Sources */,
+				5CD3C1D81D6FF39800DB0F3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CD3C1DF1D6FF39800DB0F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3C1E01D6FF39800DB0F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CD3C1E41D6FF39800DB0F3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD3C1E51D6FF39800DB0F3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD3C1E81D6FF39800DB0F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CD3C1E91D6FF39800DB0F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD3C1EB1D6FF39800DB0F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MXSpeaker-OC-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.MXSpeaker-OC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CD3C1EC1D6FF39800DB0F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MXSpeaker-OC-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.MXSpeaker-OC-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD3C1CE1D6FF39800DB0F3C /* Build configuration list for PBXProject "MXSpeaker-OC-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD3C1E81D6FF39800DB0F3C /* Debug */,
+				5CD3C1E91D6FF39800DB0F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD3C1EA1D6FF39800DB0F3C /* Build configuration list for PBXNativeTarget "MXSpeaker-OC-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD3C1EB1D6FF39800DB0F3C /* Debug */,
+				5CD3C1EC1D6FF39800DB0F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD3C1CB1D6FF39800DB0F3C /* Project object */;
+}
