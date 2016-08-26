@@ -15,5 +15,5 @@ pod 'MXSpeaker'
 ```
 
 ```
-
+[MXSpeaker speakWithFormat:@"%zd", randomNumber];
 ```
