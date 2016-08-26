@@ -1,6 +1,6 @@
 # MXSpeaker-in-Objective-C
 
-`MXSpeaker` is a voice speaker class category for iOS in Objective-C.
+`MXSpeaker` is a text speaker class category for iOS in Objective-C.
 
 ## Installation with CocoaPods
 
